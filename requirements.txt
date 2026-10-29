@@ -1,0 +1,7 @@
+accelerate>=1.10,<2
+psutil>=5.9,<8
+torch>=2.6,<3
+huggingface_hub>=0.34,<2
+peft>=0.17,<1
+safetensors>=0.6,<1
+transformers>=4.54,<6

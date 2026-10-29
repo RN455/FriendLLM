@@ -1,0 +1,33 @@
+# Python environment and build output
+.venv/
+build/
+dist/
+releases/
+__pycache__/
+*.py[cod]
+.cache/
+
+# Chat exports and generated training data
+*.zip
+*.txt
+!requirements.txt
+*.jsonl
+datasets/
+training_runs/
+
+# Model weights, adapters, and checkpoints
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+checkpoint-*/
+
+# Local configuration and logs
+.env
+.env.*
+*.log
+STOP_AND_SAVE
+resume_settings_*.json
+training_settings_*.json
+*.stop
